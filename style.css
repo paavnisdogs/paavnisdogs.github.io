@@ -1,0 +1,41 @@
+img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+button {
+    font-size: medium;
+    border: width 1px;
+    ;
+    border-color: black;
+    background: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+div#row-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+div#search-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+div#content {
+    display: flex;
+    gap: 32px;
+}
+
+div#image,
+div#header-text {
+    flex: 1;
+}
+
+/* {
+    display: flex;
+    flex-direction: column;
+} */
